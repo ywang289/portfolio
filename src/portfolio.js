@@ -36,8 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/ywang289",
   linkedin: "https://www.linkedin.com/in/yifanwang00925",
   gmail: "yifan00925@gmail.com",
-  
- 
+
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,10 +48,10 @@ const skillsSection = {
   title: "What I do",
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
+    emoji("⚡ Implemented distrbuted system that handles high concurrency  "),
     emoji(
-      "⚡ Implemented distrbuted system that handles high concurrency  "
+      "⚡ Deployed the platfrom on Cloud Platform like AWS (Amplify, EC2, S3, Lambda, API Gateway), GCP, Azure"
     ),
-    emoji("⚡ Deployed the platfrom on Cloud Platform like AWS (Amplify, EC2, S3, Lambda, API Gateway), GCP, Azure"),
     emoji(
       "⚡  Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     )
@@ -62,7 +61,6 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -109,14 +107,12 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Go",
-      fontAwesomeClassname: "fab fa-golang" 
+      fontAwesomeClassname: "fab fa-golang"
     },
     {
       skillName: "Figma",
-      fontAwesomeClassname: "fab fa-figma" 
-    },
- 
- 
+      fontAwesomeClassname: "fab fa-figma"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -138,7 +134,7 @@ const educationInfo = {
       logo: require("./assets/images/buffaloLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "January 2019 - May 2022",
-      desc: "Ranked top 10% in the program. Took courses about Computer Network, Algorithm and Design, DataBase,  Operating Systems ",
+      desc: "Ranked top 10% in the program. Took courses about Computer Network, Algorithm and Design, DataBase,  Operating Systems "
     }
   ]
 };
@@ -181,16 +177,16 @@ const workExperiences = {
       company: "Voyapay",
       companylogo: require("./assets/images/VoyaLogo.png"),
       date: "Dec 2023 – Sep 2024",
-      desc: " Implemented a highly available architecture for the VoyaPay virtual credit card project, ensuring robust security, scalability, and maintainability of the system.",
-     
+      desc: " Implemented a highly available architecture for the VoyaPay virtual credit card project, ensuring robust security, scalability, and maintainability of the system."
     },
-    
+
     {
       role: "Full Stack Engineer",
       company: "The Donovan's Venom",
       companylogo: require("./assets/images/TheLogo.png"),
       date: "Sep 2023 – Dec 2023",
-      desc: "  Implemented a distributed system handling high concurrency, with support for over 10K users during peak hours, including payment processing functionalities for membership using NodeJS. "}
+      desc: "  Implemented a distributed system handling high concurrency, with support for over 10K users during peak hours, including payment processing functionalities for membership using NodeJS. "
+    }
   ]
 };
 
