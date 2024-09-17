@@ -108,6 +108,7 @@ if (MEDIUM_USERNAME !== undefined) {
 
     console.log(`statusCode: ${res.statusCode}`);
     if (res.statusCode !== 200) {
+      console.error("Failed to fetch Medium blogs:", res.statusCode, res.body);
       throw new Error(ERR.requestMediumFailed);
     }
 
