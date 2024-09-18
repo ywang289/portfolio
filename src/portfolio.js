@@ -36,7 +36,8 @@ const socialMediaLinks = {
   github: "https://github.com/ywang289",
   linkedin: "https://www.linkedin.com/in/yifanwang00925",
   gmail: "yifan00925@gmail.com",
-
+  
+ 
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,10 +49,10 @@ const skillsSection = {
   title: "What I do",
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Implemented distrbuted system that handles high concurrency  "),
     emoji(
-      "⚡ Deployed the platfrom on Cloud Platform like AWS (Amplify, EC2, S3, Lambda, API Gateway), GCP, Azure"
+      "⚡ Implemented distrbuted system that handles high concurrency  "
     ),
+    emoji("⚡ Deployed the platfrom on Cloud Platform like AWS (Amplify, EC2, S3, Lambda, API Gateway), GCP, Azure"),
     emoji(
       "⚡  Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     )
@@ -61,6 +62,7 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -107,12 +109,14 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Go",
-      fontAwesomeClassname: "fab fa-golang"
+      fontAwesomeClassname: "fab fa-golang" 
     },
     {
       skillName: "Figma",
-      fontAwesomeClassname: "fab fa-figma"
-    }
+      fontAwesomeClassname: "fab fa-figma" 
+    },
+ 
+ 
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -134,7 +138,7 @@ const educationInfo = {
       logo: require("./assets/images/buffaloLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "January 2019 - May 2022",
-      desc: "Ranked top 10% in the program. Took courses about Computer Network, Algorithm and Design, DataBase,  Operating Systems "
+      desc: "Ranked top 10% in the program. Took courses about Computer Network, Algorithm and Design, DataBase,  Operating Systems ",
     }
   ]
 };
@@ -177,16 +181,16 @@ const workExperiences = {
       company: "Voyapay",
       companylogo: require("./assets/images/VoyaLogo.png"),
       date: "Dec 2023 – Sep 2024",
-      desc: " Implemented a highly available architecture for the VoyaPay virtual credit card project, ensuring robust security, scalability, and maintainability of the system."
+      desc: " Implemented a highly available architecture for the VoyaPay virtual credit card project, ensuring robust security, scalability, and maintainability of the system.",
+     
     },
-
+    
     {
       role: "Full Stack Engineer",
       company: "The Donovan's Venom",
       companylogo: require("./assets/images/TheLogo.png"),
       date: "Sep 2023 – Dec 2023",
-      desc: "  Implemented a distributed system handling high concurrency, with support for over 10K users during peak hours, including payment processing functionalities for membership using NodeJS. "
-    }
+      desc: "  Implemented a distributed system handling high concurrency, with support for over 10K users during peak hours, including payment processing functionalities for membership using NodeJS. "}
   ]
 };
 
@@ -202,33 +206,33 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
+      image: require("./assets/images/VoyapayLogo.png"),
+      projectName: "Voyapay Virtual Credit Card Management System",
       projectDesc: "",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://eswo4go8k0cwwc8c08ow84oo.47.253.146.52.sslip.io/#/login"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
+      image: require("./assets/images/PHRIlogo.png"),
+      projectName: "PHRI Hybird Room Management System",
       projectDesc: "",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/ywang289/Hybrid-Office-Project-main"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true// Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -289,7 +293,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
