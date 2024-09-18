@@ -206,33 +206,33 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
+      image: require("./assets/images/VoyapayLogo.png"),
+      projectName: "Voyapay Virtual Credit Card Management System",
       projectDesc: "",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://eswo4go8k0cwwc8c08ow84oo.47.253.146.52.sslip.io/#/login"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
+      image: require("./assets/images/PHRIlogo.png"),
+      projectName: "PHRI Hybird Room Management System",
       projectDesc: "",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/ywang289/Hybrid-Office-Project-main"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true// Set false to hide this section, defaults to true
 };
 
 // Achievement Section
