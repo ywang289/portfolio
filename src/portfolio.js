@@ -168,7 +168,7 @@ const workExperiences = {
     {
       role: "Back-End Engineer",
       company: "AT&T",
-      companylogo: require("./assets/images/att.jpeg"),
+      companylogo: require("./assets/images/att.png"),
       date: "Jan 2025 – Present",
       desc: "Developed the RAN Forecast Tool using C++ and PostgreSQL, enabling the performance forecasting of AT&T's 4G LTE and 5G NR network utilization."
     },
